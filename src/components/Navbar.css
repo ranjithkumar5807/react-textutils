@@ -1,0 +1,85 @@
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    margin: 8px;
+    padding: 10px;    
+}
+.navbar{
+    background-color:#124076;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar h2{
+    margin: 8px;
+    color:white;
+    font-size: 1.5em;
+}
+.light-nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+}
+.light-nav-links a:hover{
+    color:aqua;
+}
+
+.light-nav-links button {
+    background-color: #124076;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    margin: 8px;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    border: none; 
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.light-nav-links button:hover{
+    color: aqua;
+}
+
+.dark-nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+
+}
+
+
+.dark-nav-links a:hover{
+    color:aqua;
+}
+
+.dark-nav-links button {
+    background-color: #124076;
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    margin: 8px;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    border: none; 
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.dark-nav-links button:hover{
+    color: aqua;
+}
+
+.dark-nav-links a{
+    color: black;
+
+}

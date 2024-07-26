@@ -1,0 +1,17 @@
+.text-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.blocks{
+    text-align: center;
+}
+.convertbtns{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+.convertbtns button{
+    margin: 10px;
+}
+
